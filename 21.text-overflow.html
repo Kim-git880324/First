@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21.</title>
+    <style>
+        .contain{
+            width: 100%;
+            display: flex;
+        }
+        .box{
+            background-color: rgba(195, 212, 149, 0.616);
+            margin: 10px;
+            /* text-overflow: ellipsis; */
+            overflow: hidden;
+            /* white-space: nowrap; */
+            display: -webkit-box; 
+            -webkit-line-clamp: 3; 
+            -webkit-box-orient: vertical;
+        }
+ 
+
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore sunt autem sapiente quibusdam, soluta incidunt veritatis voluptatibus magnam unde adipisci fugiat veniam assumenda qui illo eos voluptatum nihil iusto doloribus?</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore sunt autem sapiente quibusdam, soluta incidunt veritatis voluptatibus magnam unde adipisci fugiat veniam assumenda qui illo eos voluptatum nihil iusto doloribus?</div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore sunt autem sapiente quibusdam, soluta incidunt veritatis voluptatibus magnam unde adipisci fugiat veniam assumenda qui illo eos voluptatum nihil iusto doloribus?</div>
+
+    </div>
+    
+</body>
+</html>
